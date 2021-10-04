@@ -1,3 +1,6 @@
 #First Task
+import sys
 
-print("Hello World")
+inp = input()
+if(inp == "yep"):
+    print("nope")
