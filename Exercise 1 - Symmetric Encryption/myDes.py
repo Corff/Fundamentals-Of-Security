@@ -27,7 +27,7 @@ def createRoundKeys(key):
     return [k1,k2]
 
 def Permutate(input, table):
-
+    permutatedArray = [1]
     return permutatedArray
 
 def Encode():
@@ -50,8 +50,8 @@ def Decode():
 
 if(__name__ == "__main__"):
     encOrDec = str(sys.argv[1])
-    key = list(str(sys.argv[2]))
-    input = list(str(sys.argv[3]))
+    key = str(sys.argv[2])
+    input = str(sys.argv[3])
     if(encOrDec == "enc"):
         Encode()
     else:
