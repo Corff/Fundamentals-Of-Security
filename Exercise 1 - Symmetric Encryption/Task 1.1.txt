@@ -1,0 +1,28 @@
+Key: 0110100111
+P10
+Key: 1110010110
+
+KeyL: 11100
+KeyR: 10110
+
+Left Side
+LS1
+KeyL: 11001
+KeyR: 01101
+Merge
+KeyL: 1100101101
+P8
+k1 = 00101110
+
+Rightside
+LS2
+KeyL: 10011
+KeyR: 11010
+Merge
+KeyR: 1001111010
+P8
+k2 = 10110101
+
+Roundkeys
+k1 = 00101110
+k2 = 10110101
