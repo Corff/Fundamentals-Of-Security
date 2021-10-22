@@ -1,0 +1,5 @@
+Is the scheme secure?
+
+Yes this scheme is secure.
+This is due to the fact that computing the private key from the public key is computationally infeasable for large N
+Calculaiting the message from the ciphertext is computationally infeasable for large N without the private key.
