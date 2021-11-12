@@ -1,0 +1,4 @@
+Goals:		B authenticates A on Na
+		A authenticated B on Nb
+		Na secret between A, B
+		Nb secret between B, A

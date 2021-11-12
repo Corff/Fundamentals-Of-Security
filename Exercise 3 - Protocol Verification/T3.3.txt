@@ -1,0 +1,3 @@
+A->B: (Na, A)_pk(B)
+B->A: (Nb,A,Na,B)_pk(A)
+A->B: (Nb-1)_pk(B)
