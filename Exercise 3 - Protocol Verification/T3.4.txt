@@ -1,3 +1,14 @@
-A->B: (Na, A)_pk(B)
-B->A: (Nb,A,Na,B)_pk(A)
-A->B: (Nb-1)_pk(B)
+Protocol: 	FundamentalsOfSecurity2
+
+Types:		Agent A,B;
+		Number Na, Nb;
+		Function pk
+
+Knowledge: 	A: A, pk, inv(pk(A)), B;
+		B: B, pk, inv(pk(B)), A
+
+Actions:	A->B: {Na,B}inv(pk(A))
+		B->A: {Nb,A,Na}pk(A)
+		A->B: {Nb}pk(B)
+
+Goals:		B authenticates A on Na
