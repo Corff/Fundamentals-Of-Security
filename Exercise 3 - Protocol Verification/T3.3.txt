@@ -1,14 +1,12 @@
-Protocol: 	FundamentalsOfSecurity2
-
-Types:		Agent A,B;
-		Number Na, Nb;
-		Function pk
-
-Knowledge: 	A: A, pk, inv(pk(A)), B;
-		B: B, pk, inv(pk(B)), A
-
-Actions:	A->B: {Na,B}inv(pk(A))
-		B->A: {Nb,A,Na}pk(A)
-		A->B: {Nb}pk(B)
-
-Goals:		B authenticates A on Na
+A -> i: {Na,B}inv(pk(A))
+i -> B: {Na,B}inv(pk(A))
+B -> i: {Nb,A,Na}inv(pk(B))
+A -> i: {Na,i}inv(pk(A))
+i -> B: {Na,B}inv(pk(A))
+B -> i: {Nb,A,Na}inv(pk(B))
+i -> A: {Nb,A,Na}inv(pk(B))
+A -> i: {Nb}inv(pk(A))
+i -> A: {Nb,A,Na}inv(pk(i))
+A -> i: {Nb}inv(pk(A))
+i -> B: {Nb}inv(pk(A))
+i -> B: {Nb}inv(pk(A))
