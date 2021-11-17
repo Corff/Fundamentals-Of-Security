@@ -1,0 +1,15 @@
+S = {Alice, Bob, Eve}
+
+b1 = {(Alice, Ex1, e), (Alice, Hw1, w), (Alice, A1, r), (Bob, Hw1, e), (Eve, A1, e)}
+
+Fs,1(Alice) = (High, {Security})
+Fs,1(Bob) = (Low, {Security})
+Fs,1(Eve) = (Low, {Logics})
+
+Fc,1(Alice) = (High, {Security})
+Fc,1(Bob) = (Low, {Security})
+Fc,1(Eve) = (Low, {Logics})
+
+Fo,1(Ex1) = (High, {Logics})
+Fo,1(Hw1) = (Low, {Security})
+Fo,1(A1) = (Low, {Logics})

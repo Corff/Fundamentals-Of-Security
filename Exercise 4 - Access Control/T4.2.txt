@@ -1,0 +1,1 @@
+This condition is secure as Bob has obtained reading/writing rights for Hw1, and Alice has read rights for A1.
